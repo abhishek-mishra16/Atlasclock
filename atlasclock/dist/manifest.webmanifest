@@ -1,0 +1,11 @@
+{
+  "name": "Atlasclock \u2014 Modern World Time",
+  "short_name": "Atlasclock",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f4f3ef",
+  "theme_color": "#ff7043",
+  "description": "A calm, private world clock with an interactive map.",
+  "icons": [],
+  "scope": "./"
+}

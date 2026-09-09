@@ -1,0 +1,10 @@
+const fs = require('fs');
+const path = require('path');
+const root = path.resolve(__dirname, '..');
+const out = path.join(root, 'dist');
+fs.rmSync(out, { recursive: true, force: true });
+fs.mkdirSync(out, { recursive: true });
+fs.cpSync(path.join(root, 'public'), out, { recursive: true });
+fs.copyFileSync(path.join(root, 'server.js'), path.join(out, 'server.js'));
+fs.copyFileSync(path.join(root, 'package.json'), path.join(out, 'package.json'));
+console.log('Atlasclock production bundle created in dist/');

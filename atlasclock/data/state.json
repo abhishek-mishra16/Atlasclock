@@ -1,0 +1,17 @@
+{
+  "savedCities": [
+    "tokyo",
+    "sydney",
+    "los-angeles",
+    "new-york",
+    "london"
+  ],
+  "selectedCity": "los-angeles",
+  "preferences": {
+    "timeFormat": "24",
+    "showSeconds": false,
+    "theme": "light",
+    "mapStyle": "minimal",
+    "animations": "full"
+  }
+}

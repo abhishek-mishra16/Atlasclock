@@ -1,0 +1,557 @@
+{
+  "source": "Natural Earth low-resolution country geometry bundled with pyogrio fixture",
+  "projection": "equirectangular / Plate Carrée",
+  "viewBox": "0 0 1000 500",
+  "countries": 177,
+  "cities": 78,
+  "cityAssignments": [
+    {
+      "city": "Los Angeles",
+      "iso3": "USA",
+      "lat": 34.0522,
+      "lon": -118.2437,
+      "timezone": "America/Los_Angeles"
+    },
+    {
+      "city": "New York",
+      "iso3": "USA",
+      "lat": 40.7128,
+      "lon": -74.006,
+      "timezone": "America/New_York"
+    },
+    {
+      "city": "Chicago",
+      "iso3": "USA",
+      "lat": 41.8781,
+      "lon": -87.6298,
+      "timezone": "America/Chicago"
+    },
+    {
+      "city": "Denver",
+      "iso3": "USA",
+      "lat": 39.7392,
+      "lon": -104.9903,
+      "timezone": "America/Denver"
+    },
+    {
+      "city": "Honolulu",
+      "iso3": "USA",
+      "lat": 21.3069,
+      "lon": -157.8583,
+      "timezone": "Pacific/Honolulu"
+    },
+    {
+      "city": "Toronto",
+      "iso3": "CAN",
+      "lat": 43.6532,
+      "lon": -79.3832,
+      "timezone": "America/Toronto"
+    },
+    {
+      "city": "Vancouver",
+      "iso3": "CAN",
+      "lat": 49.2827,
+      "lon": -123.1207,
+      "timezone": "America/Vancouver"
+    },
+    {
+      "city": "Mexico City",
+      "iso3": "MEX",
+      "lat": 19.4326,
+      "lon": -99.1332,
+      "timezone": "America/Mexico_City"
+    },
+    {
+      "city": "New Orleans",
+      "iso3": "USA",
+      "lat": 29.9511,
+      "lon": -90.0715,
+      "timezone": "America/Chicago"
+    },
+    {
+      "city": "São Paulo",
+      "iso3": "BRA",
+      "lat": -23.5505,
+      "lon": -46.6333,
+      "timezone": "America/Sao_Paulo"
+    },
+    {
+      "city": "Buenos Aires",
+      "iso3": "ARG",
+      "lat": -34.6037,
+      "lon": -58.3816,
+      "timezone": "America/Argentina/Buenos_Aires"
+    },
+    {
+      "city": "Santiago",
+      "iso3": "CHL",
+      "lat": -33.4489,
+      "lon": -70.6693,
+      "timezone": "America/Santiago"
+    },
+    {
+      "city": "Lima",
+      "iso3": "PER",
+      "lat": -12.0464,
+      "lon": -77.0428,
+      "timezone": "America/Lima"
+    },
+    {
+      "city": "Bogotá",
+      "iso3": "COL",
+      "lat": 4.711,
+      "lon": -74.0721,
+      "timezone": "America/Bogota"
+    },
+    {
+      "city": "Reykjavík",
+      "iso3": "ISL",
+      "lat": 64.1466,
+      "lon": -21.9426,
+      "timezone": "Atlantic/Reykjavik"
+    },
+    {
+      "city": "London",
+      "iso3": "GBR",
+      "lat": 51.5074,
+      "lon": -0.1278,
+      "timezone": "Europe/London"
+    },
+    {
+      "city": "Paris",
+      "iso3": "FRA",
+      "lat": 48.8566,
+      "lon": 2.3522,
+      "timezone": "Europe/Paris"
+    },
+    {
+      "city": "Berlin",
+      "iso3": "DEU",
+      "lat": 52.52,
+      "lon": 13.405,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "city": "Madrid",
+      "iso3": "ESP",
+      "lat": 40.4168,
+      "lon": -3.7038,
+      "timezone": "Europe/Madrid"
+    },
+    {
+      "city": "Rome",
+      "iso3": "ITA",
+      "lat": 41.9028,
+      "lon": 12.4964,
+      "timezone": "Europe/Rome"
+    },
+    {
+      "city": "Amsterdam",
+      "iso3": "NLD",
+      "lat": 52.3676,
+      "lon": 4.9041,
+      "timezone": "Europe/Amsterdam"
+    },
+    {
+      "city": "Lisbon",
+      "iso3": "PRT",
+      "lat": 38.7223,
+      "lon": -9.1393,
+      "timezone": "Europe/Lisbon"
+    },
+    {
+      "city": "Dublin",
+      "iso3": "IRL",
+      "lat": 53.3498,
+      "lon": -6.2603,
+      "timezone": "Europe/Dublin"
+    },
+    {
+      "city": "Vienna",
+      "iso3": "AUT",
+      "lat": 48.2082,
+      "lon": 16.3738,
+      "timezone": "Europe/Vienna"
+    },
+    {
+      "city": "Prague",
+      "iso3": "CZE",
+      "lat": 50.0755,
+      "lon": 14.4378,
+      "timezone": "Europe/Prague"
+    },
+    {
+      "city": "Stockholm",
+      "iso3": "SWE",
+      "lat": 59.3293,
+      "lon": 18.0686,
+      "timezone": "Europe/Stockholm"
+    },
+    {
+      "city": "Oslo",
+      "iso3": "NOR",
+      "lat": 59.9139,
+      "lon": 10.7522,
+      "timezone": "Europe/Oslo"
+    },
+    {
+      "city": "Copenhagen",
+      "iso3": "DNK",
+      "lat": 55.6761,
+      "lon": 12.5683,
+      "timezone": "Europe/Copenhagen"
+    },
+    {
+      "city": "Helsinki",
+      "iso3": "FIN",
+      "lat": 60.1699,
+      "lon": 24.9384,
+      "timezone": "Europe/Helsinki"
+    },
+    {
+      "city": "Athens",
+      "iso3": "GRC",
+      "lat": 37.9838,
+      "lon": 23.7275,
+      "timezone": "Europe/Athens"
+    },
+    {
+      "city": "Istanbul",
+      "iso3": "TUR",
+      "lat": 41.0082,
+      "lon": 28.9784,
+      "timezone": "Europe/Istanbul"
+    },
+    {
+      "city": "Moscow",
+      "iso3": "RUS",
+      "lat": 55.7558,
+      "lon": 37.6173,
+      "timezone": "Europe/Moscow"
+    },
+    {
+      "city": "Algiers",
+      "iso3": "DZA",
+      "lat": 36.7538,
+      "lon": 3.0588,
+      "timezone": "Africa/Algiers"
+    },
+    {
+      "city": "Cairo",
+      "iso3": "EGY",
+      "lat": 30.0444,
+      "lon": 31.2357,
+      "timezone": "Africa/Cairo"
+    },
+    {
+      "city": "Lagos",
+      "iso3": "NGA",
+      "lat": 6.5244,
+      "lon": 3.3792,
+      "timezone": "Africa/Lagos"
+    },
+    {
+      "city": "Accra",
+      "iso3": "GHA",
+      "lat": 5.6037,
+      "lon": -0.187,
+      "timezone": "Africa/Accra"
+    },
+    {
+      "city": "Nairobi",
+      "iso3": "KEN",
+      "lat": -1.2921,
+      "lon": 36.8219,
+      "timezone": "Africa/Nairobi"
+    },
+    {
+      "city": "Johannesburg",
+      "iso3": "ZAF",
+      "lat": -26.2041,
+      "lon": 28.0473,
+      "timezone": "Africa/Johannesburg"
+    },
+    {
+      "city": "Cape Town",
+      "iso3": "ZAF",
+      "lat": -33.9249,
+      "lon": 18.4241,
+      "timezone": "Africa/Johannesburg"
+    },
+    {
+      "city": "Casablanca",
+      "iso3": "MAR",
+      "lat": 33.5731,
+      "lon": -7.5898,
+      "timezone": "Africa/Casablanca"
+    },
+    {
+      "city": "Dubai",
+      "iso3": "ARE",
+      "lat": 25.2048,
+      "lon": 55.2708,
+      "timezone": "Asia/Dubai"
+    },
+    {
+      "city": "Abu Dhabi",
+      "iso3": "ARE",
+      "lat": 24.4539,
+      "lon": 54.3773,
+      "timezone": "Asia/Dubai"
+    },
+    {
+      "city": "Riyadh",
+      "iso3": "SAU",
+      "lat": 24.7136,
+      "lon": 46.6753,
+      "timezone": "Asia/Riyadh"
+    },
+    {
+      "city": "Doha",
+      "iso3": "QAT",
+      "lat": 25.2854,
+      "lon": 51.531,
+      "timezone": "Asia/Qatar"
+    },
+    {
+      "city": "Tehran",
+      "iso3": "IRN",
+      "lat": 35.6892,
+      "lon": 51.389,
+      "timezone": "Asia/Tehran"
+    },
+    {
+      "city": "Karachi",
+      "iso3": "PAK",
+      "lat": 24.8607,
+      "lon": 67.0011,
+      "timezone": "Asia/Karachi"
+    },
+    {
+      "city": "New Delhi",
+      "iso3": "IND",
+      "lat": 28.6139,
+      "lon": 77.209,
+      "timezone": "Asia/Kolkata"
+    },
+    {
+      "city": "Mumbai",
+      "iso3": "IND",
+      "lat": 19.076,
+      "lon": 72.8777,
+      "timezone": "Asia/Kolkata"
+    },
+    {
+      "city": "Bengaluru",
+      "iso3": "IND",
+      "lat": 12.9716,
+      "lon": 77.5946,
+      "timezone": "Asia/Kolkata"
+    },
+    {
+      "city": "Colombo",
+      "iso3": "LKA",
+      "lat": 6.9271,
+      "lon": 79.8612,
+      "timezone": "Asia/Colombo"
+    },
+    {
+      "city": "Dhaka",
+      "iso3": "BGD",
+      "lat": 23.8103,
+      "lon": 90.4125,
+      "timezone": "Asia/Dhaka"
+    },
+    {
+      "city": "Kathmandu",
+      "iso3": "NPL",
+      "lat": 27.7172,
+      "lon": 85.324,
+      "timezone": "Asia/Kathmandu"
+    },
+    {
+      "city": "Almaty",
+      "iso3": "KAZ",
+      "lat": 43.2389,
+      "lon": 76.8897,
+      "timezone": "Asia/Almaty"
+    },
+    {
+      "city": "Tashkent",
+      "iso3": "UZB",
+      "lat": 41.2995,
+      "lon": 69.2401,
+      "timezone": "Asia/Tashkent"
+    },
+    {
+      "city": "Bangkok",
+      "iso3": "THA",
+      "lat": 13.7563,
+      "lon": 100.5018,
+      "timezone": "Asia/Bangkok"
+    },
+    {
+      "city": "Jakarta",
+      "iso3": "IDN",
+      "lat": -6.2088,
+      "lon": 106.8456,
+      "timezone": "Asia/Jakarta"
+    },
+    {
+      "city": "Singapore",
+      "iso3": "MYS",
+      "lat": 1.3521,
+      "lon": 103.8198,
+      "timezone": "Asia/Singapore"
+    },
+    {
+      "city": "Kuala Lumpur",
+      "iso3": "MYS",
+      "lat": 3.139,
+      "lon": 101.6869,
+      "timezone": "Asia/Kuala_Lumpur"
+    },
+    {
+      "city": "Manila",
+      "iso3": "PHL",
+      "lat": 14.5995,
+      "lon": 120.9842,
+      "timezone": "Asia/Manila"
+    },
+    {
+      "city": "Hanoi",
+      "iso3": "VNM",
+      "lat": 21.0278,
+      "lon": 105.8342,
+      "timezone": "Asia/Ho_Chi_Minh"
+    },
+    {
+      "city": "Hong Kong",
+      "iso3": "CHN",
+      "lat": 22.3193,
+      "lon": 114.1694,
+      "timezone": "Asia/Hong_Kong"
+    },
+    {
+      "city": "Beijing",
+      "iso3": "CHN",
+      "lat": 39.9042,
+      "lon": 116.4074,
+      "timezone": "Asia/Shanghai"
+    },
+    {
+      "city": "Shanghai",
+      "iso3": "CHN",
+      "lat": 31.2304,
+      "lon": 121.4737,
+      "timezone": "Asia/Shanghai"
+    },
+    {
+      "city": "Taipei",
+      "iso3": "TWN",
+      "lat": 25.033,
+      "lon": 121.5654,
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "city": "Seoul",
+      "iso3": "KOR",
+      "lat": 37.5665,
+      "lon": 126.978,
+      "timezone": "Asia/Seoul"
+    },
+    {
+      "city": "Tokyo",
+      "iso3": "JPN",
+      "lat": 35.6762,
+      "lon": 139.6503,
+      "timezone": "Asia/Tokyo"
+    },
+    {
+      "city": "Osaka",
+      "iso3": "JPN",
+      "lat": 34.6937,
+      "lon": 135.5023,
+      "timezone": "Asia/Tokyo"
+    },
+    {
+      "city": "Vladivostok",
+      "iso3": "RUS",
+      "lat": 43.1155,
+      "lon": 131.8855,
+      "timezone": "Asia/Vladivostok"
+    },
+    {
+      "city": "Perth",
+      "iso3": "AUS",
+      "lat": -31.9505,
+      "lon": 115.8605,
+      "timezone": "Australia/Perth"
+    },
+    {
+      "city": "Darwin",
+      "iso3": "AUS",
+      "lat": -12.4634,
+      "lon": 130.8456,
+      "timezone": "Australia/Darwin"
+    },
+    {
+      "city": "Adelaide",
+      "iso3": "AUS",
+      "lat": -34.9285,
+      "lon": 138.6007,
+      "timezone": "Australia/Adelaide"
+    },
+    {
+      "city": "Melbourne",
+      "iso3": "AUS",
+      "lat": -37.8136,
+      "lon": 144.9631,
+      "timezone": "Australia/Melbourne"
+    },
+    {
+      "city": "Sydney",
+      "iso3": "AUS",
+      "lat": -33.8688,
+      "lon": 151.2093,
+      "timezone": "Australia/Sydney"
+    },
+    {
+      "city": "Brisbane",
+      "iso3": "AUS",
+      "lat": -27.4698,
+      "lon": 153.0251,
+      "timezone": "Australia/Brisbane"
+    },
+    {
+      "city": "Auckland",
+      "iso3": "NZL",
+      "lat": -36.8509,
+      "lon": 174.7645,
+      "timezone": "Pacific/Auckland"
+    },
+    {
+      "city": "Suva",
+      "iso3": "FJI",
+      "lat": -18.1248,
+      "lon": 178.4501,
+      "timezone": "Pacific/Fiji"
+    },
+    {
+      "city": "Apia",
+      "iso3": "WSM",
+      "lat": -13.8507,
+      "lon": -171.7514,
+      "timezone": "Pacific/Apia"
+    },
+    {
+      "city": "Nuuk",
+      "iso3": "GRL",
+      "lat": 64.1814,
+      "lon": -51.6941,
+      "timezone": "America/Nuuk"
+    }
+  ],
+  "sourceUrl": "https://www.naturalearthdata.com/downloads/110m-cultural-vectors/110m-admin-0-countries/",
+  "notes": "Country geometry is derived from the Natural Earth low-resolution country dataset bundled with the Python GIS environment; city coordinates are the project dataset and are assigned to country polygons with point-in-country geometry checks."
+}
