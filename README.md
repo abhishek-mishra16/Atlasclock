@@ -23,7 +23,7 @@ Instead of showing only numbers and time zones, Atlasclock combines **live clock
 
 ---
 
-## 🖥️ Screenshots
+## 🖥️ Preview
 
 ### Home
 
