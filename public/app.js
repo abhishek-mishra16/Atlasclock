@@ -573,3 +573,4 @@ document.addEventListener('click',e=>{
 document.addEventListener('keydown',e=>{if(e.key==='/'&&!['INPUT','TEXTAREA','SELECT'].includes(document.activeElement.tagName)){e.preventDefault();showModal('search');}if(e.key==='Escape'){state.modal=null;$('.modal-backdrop')?.remove();}});
 window.addEventListener('scroll',()=>{ $('.back-top')?.classList.toggle('show',window.scrollY>500); const p=$('#scroll-progress'); if(p){const max=document.documentElement.scrollHeight-innerHeight;p.style.transform=`scaleX(${max>0?scrollY/max:0})`; } },{passive:true});
 boot();
+
