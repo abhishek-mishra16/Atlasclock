@@ -42,3 +42,4 @@ const server = http.createServer(async (req,res)=>{
   } catch(e) { console.error(e); json(res,500,{error:'Server error'}); }
 });
 server.listen(PORT, ()=>console.log(`Atlasclock running at http://localhost:${PORT}`));
+
